@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍 - 白益的小博客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        header {
+            background: #222831;
+            height: 60px;
+            line-height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .nav-wrap {
+            width: 1080px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav-list a {
+            color: #cccccc;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .nav-list a:hover {
+            color: #76ABAE;
+        }
+        .nav-list a.active {
+            color: #76ABAE;
+        }
+        .container {
+            width: 1080px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .box {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #ddd;
+        }
+        h1 {
+            color: #222831;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin: 25px 0 10px;
+            color: #31363F;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <a href="index.html" class="logo">白益的小博客</a>
+            <div class="nav-list">
+                <a href="index.html">首页</a>
+                <a href="about.html" class="active">个人介绍</a>
+                <a href="oc.html">我的OC</a>
+                <a href="contact.html">联系方式</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>关于我</h1>
+            <h3>基本信息</h3>
+            <p>称呼：白益</p>
+            <p>爱好：人物绘画、原创OC创作、阅读、写小故事</p>
+            <p>日常：在校学习，空余时间画图、整理角色设定、更新博客</p>
+
+            <h3>创作偏好</h3>
+            <p>喜欢塑造有完整背景故事的原创角色，偏爱细腻人物情感向设定，经常记录OC之间的互动剧情。</p>
+
+            <h3>博客用途</h3>
+            <p>用来存档OC设定、绘画成品、随笔碎碎念，方便自己回顾，也方便同好浏览交流。</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 白益 | 静态博客 GitHub Pages
+    </footer>
+</body>
+</html>
