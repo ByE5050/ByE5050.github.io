@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式 - 白益的小博客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        header {
+            background: #222831;
+            height: 60px;
+            line-height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .nav-wrap {
+            width: 1080px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav-list a {
+            color: #cccccc;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .nav-list a:hover {
+            color: #76ABAE;
+        }
+        .nav-list a.active {
+            color: #76ABAE;
+        }
+        .container {
+            width: 1080px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .box {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #ddd;
+        }
+        h1 {
+            color: #222831;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin: 25px 0 10px;
+            color: #31363F;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        a.link {
+            color: #296370;
+            text-decoration: none;
+        }
+        a.link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <a href="index.html" class="logo">白益的小博客</a>
+            <div class="nav-list">
+                <a href="index.html">首页</a>
+                <a href="about.html">个人介绍</a>
+                <a href="oc.html">我的OC</a>
+                <a href="contact.html" class="active">联系方式</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>联系我 & 交流渠道</h1>
+            <h3>社交平台</h3>
+            <p>Lofter：<a class="link" href="#">这里填你的Lofter主页</a></p>
+            <p>小红书：<a class="link" href="#">你的小红书账号</a></p>
+            <p>Discord：#你的ID</p>
+
+            <h3>约稿相关</h3>
+            <p>如需约OC人设、插画、短故事，可通过Lofter私信联系。</p>
+            <p>工作日24小时内回复，节假日会延迟。</p>
+
+            <h3>注意事项</h3>
+            <p>1. 咨询OC相关设定、同好交流都欢迎；</p>
+            <p>2. 不接受无礼貌、盗设、二改需求；</p>
+            <p>3. 所有OC版权归本人所有，禁止商用。</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 白益 | 静态博客 GitHub Pages
+    </footer>
+</body>
+</html>
