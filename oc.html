@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的OC - 白益的小博客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        header {
+            background: #222831;
+            height: 60px;
+            line-height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .nav-wrap {
+            width: 1080px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav-list a {
+            color: #cccccc;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .nav-list a:hover {
+            color: #76ABAE;
+        }
+        .nav-list a.active {
+            color: #76ABAE;
+        }
+        .container {
+            width: 1080px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .box {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #ddd;
+        }
+        h1 {
+            color: #222831;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin: 25px 0 10px;
+            color: #31363F;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .oc-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <a href="index.html" class="logo">白益的小博客</a>
+            <div class="nav-list">
+                <a href="index.html">首页</a>
+                <a href="about.html">个人介绍</a>
+                <a href="oc.html" class="active">我的OC</a>
+                <a href="contact.html">联系方式</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>原创角色 OC 档案库</h1>
+            <p>这里存放我所有原创人物设定、背景故事、插画记录与互动短篇。</p>
+
+            <div class="oc-card">
+                <h3>OC 一号 · 示例角色</h3>
+                <p>姓名：</p>
+                <p>性别：</p>
+                <p>性格：</p>
+                <p>身世背景：</p>
+                <p>人物关系：</p>
+            </div>
+
+            <div class="oc-card">
+                <h3>OC 二号 · 示例角色</h3>
+                <p>姓名：</p>
+                <p>性别：</p>
+                <p>性格：</p>
+                <p>身世背景：</p>
+                <p>人物关系：</p>
+            </div>
+
+            <p>后续会持续更新新角色、补充完整人设和相关插画。</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 白益 | 静态博客 GitHub Pages
+    </footer>
+</body>
+</html>
